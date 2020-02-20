@@ -1,55 +1,61 @@
 <html>
     <head>
-        <title>My Persol Page</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <title>Latitude</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="cv.html">CV</a>
+                  <a class="nav-link" href="#">Data</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link" href="#">Comparison</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
                 </li>
               </ul>
             </div>
           </nav>
-        <div class="container">
-            <h1>Welcome</h1>
-            <img src="hamster4.gif"/>
-            <h2>My Name</h2>
+        <div class="container-fluid" style = "border:1px solid #2991f1;">
+            <div class="row">
+                <div class="col-sm-6">
+                <h1><strong></strong>Summary: Latitude vs X</strong></h1>
+                The purpose of this project was to analyze how weather changes as you vary latitude.  To accomplish the analysis, the OpenWeatherMAP API was used to 
+                assemble a dataset of 500 cities.
+
+                Matplotlib was then utilized to demonstrate the various relationships of weather verus latitude.  Factors examined included temperature, wind speed, 
+                cloudiness and humidity.  This site provides the source data and visualizations created for the analysis.  Trends and observations found are also discussed.
+                </div>
+              <div class="col-md-6"> 
+                <img src="Fig1.png" class="img-fluid">
+            </div>
         </div>
-        <div class="container">
+        <div class="container-fluid" style = "border:1px solid #2991f1;">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    Eyeballs integrate visualize proactive e-tailers syndicate platforms ecologies B2B innovative reinvent design leading-edge, solutions. Dot-com holistic 24/7 open-source users visualize platforms communities back-end integrate open-source integrated embedded reinvent back-end; e-tailers B2C viral?
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    Eyeballs integrate visualize proactive e-tailers syndicate platforms ecologies B2B innovative reinvent design leading-edge, solutions. Dot-com holistic 24/7 open-source users visualize platforms communities back-end integrate open-source integrated embedded reinvent back-end; e-tailers B2C viral?
-                </div>
-                <div class="col-md-4">
-                    Web services visionary enterprise efficient capture cross-platform B2B disintermediate schemas! Facilitate syndicate innovate incentivize leverage user-centric expedite communities transition, dot-com whiteboard, orchestrate functionalities brand e-services deliver podcasting interactive collaborative. Sticky partnerships strategize synergize streamline channels communities weblogs semantic.
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    Eyeballs integrate visualize proactive e-tailers syndicate platforms ecologies B2B innovative reinvent design leading-edge, solutions. Dot-com holistic 24/7 open-source users visualize platforms communities back-end integrate open-source integrated embedded reinvent back-end; e-tailers B2C viral?
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    Cross-media 24/7 web services models: networks, clicks-and-mortar; communities initiatives authentic global real-time granular design, synergize. Vortals rss-capable, integrate e-enable synthesize, integrate podcasting engage platforms? Synergistic web-enabled e-enable; communities B2C, synergize deploy, platforms world-class clicks-and-mortar next-generation seize value technologies, post.
-                </div>
-                <div class="col-md-4">
-                    E-markets channels morph engage networkeffects ecologies back-end portals tag e-enable technologies drive orchestrate e-services, facilitate dynamic grow initiatives user-contributed deliver blogospheres integrate enable e-markets paradigms, enterprise. Deploy semantic, customized, capture networks ecologies, cutting-edge harness wikis B2C beta-test 24/7 value architectures compelling. ROI e-commerce sexy clicks-and-mortar relationships dot-com intuitive cutting-edge target one-to-one unleash extensible sticky! Cluetrain drive citizen-media rss-capable: blogospheres, orchestrate interfaces deliverables facilitate; value leading-edge, expedite unleash. Orchestrate efficient strategize technologies models blogging customized matrix strategize cultivate sexy. Eyeballs efficient, solutions empower e-commerce evolve web-enabled plug-and-play incentivize holistic, customized drive, action-items value functionalities methodologies feeds, drive users redefine scale exploit.
-                </div>
+                <h1><strong></strong>Visualizations</strong></h1>
+                <div class="col"><img src="Fig1.png" class="img-fluid"></div>
+                <div class="col"><img src="Fig2.png" class="img-fluid"></div>
+                <div class="col"><img src="Fig3.png" class="img-fluid"></div>
+                <div class="col"><img src="Fig4.png" class="img-fluid"></div>
             </div>
         </div>
     </body>
