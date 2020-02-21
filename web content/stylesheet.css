@@ -1,6 +1,12 @@
 h1 {
     color: rgb(34, 54, 235);
 }
+h2 {
+    color: rgba(34, 54, 235, 0.774);
+}
+h3 {
+    color: rgba(34, 54, 235, 0.774);
+}
 p.one {
     border-style: solid;
     border-color: rgb(16, 135, 175);

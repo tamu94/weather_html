@@ -20,7 +20,7 @@
                   <a class="nav-link" href="data.htm">Data</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="comparison.html">Comparison</a>
+                  <a class="nav-link" href="#">Comparison</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,29 +36,29 @@
               </ul>
             </div>
           </nav>
-        <div class="container-fluid" style = "border:1px solid #2991f1;">
-            <div class="row">
-                <div class="col-sm-6">
-                <h1><strong></strong>Summary: Latitude vs X</strong></h1>
-                The purpose of this project was to analyze how weather changes as you vary latitude.  To accomplish the analysis, the OpenWeatherMAP API was used to 
-                assemble a dataset of 500 cities.
-
-                Matplotlib was then utilized to demonstrate the various relationships of weather verus latitude.  Factors examined included temperature, wind speed, 
-                cloudiness and humidity.  This site provides the source data and visualizations created for the analysis.  Trends and observations found are also discussed.
+            <h1>Comparison: Latitude vs X</h1>
+            <div class="w-100"></div>
+               <p>Click on any chart to get an in-depth analysis</p>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <h3><strong></strong>vs.Max Temperature</strong></h3>
+                    <div class="col"><a href="maxtemperature.html" target="_parent"><img src="Fig1.png" class="img-fluid"></a></div>
                 </div>
-                <div class="col-md-6"> 
-                <img src="Fig1.png" class="img-fluid">
+                <div class="col">
+                  <h3><strong></strong>vs.Humidity</strong></h3>
+                  <div class="col"><a href="humidity.html" target="_parent"><img src="Fig2.png" class="img-fluid"></a></div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                  <h3><strong></strong>vs.Cloudiness</strong></h3>
+                  <div class="col"><a href="cloudiness.html" target="_parent"><img src="Fig3.png" class="img-fluid"></a></div>
+                </div>
+                <div class="col">
+                  <h3><strong></strong>vs.Wind Speed</strong></h3>
+                  <div class="col"><a href="windspeed.html" target="_parent"><img src="Fig4.png" class="img-fluid"></a></div>
+                </div>
+              </div>
             </div>
-            </div>
-        </div>
-      <div class="container-fluid" style = "border:1px solid #2991f1;">
-          <h1><strong></strong>Visualizations</strong></h1>
-            <div class="row">
-                <div class="col"><img src="Fig1.png" class="img-fluid"></div>
-                <div class="col"><img src="Fig2.png" class="img-fluid"></div>
-                <div class="col"><img src="Fig3.png" class="img-fluid"></div>
-                <div class="col"><img src="Fig4.png" class="img-fluid"></div>
-            </div>
-      </div>
-    </body>
-</html>
+      </body>
+  </html>
